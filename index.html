@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Sicredi</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+   
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="header">
+      <a href="#" class="logo"><img src="images/logo.svg" alt="" /></a>
+      <a href="#" class="logo-mobile"><img src="images/logo-mobil.jpg" alt=""></a>
+
+      <button type="button" class="btn-access">
+        Acessar conta com <i class="fa-solid fa-angle-down"></i>
+      </button>
+
+      <form action="" class="head-form">
+        <input type="search" name="" placeholder="CNPJ" id="head-box" />
+        <label for="head-box" class="fa-solid fa-arrow-right-long"></label>
+      </form>
+
+      <button type="button" class="account-btn" id="login-btn">
+        Abra sua conta
+      </button>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fa-solid fa-magnifying-glass-dollar" id="head-btn"></div>
+      </div>
+
+      <nav class="navbar">
+        <button type="button" class="btn btn-nav"  data-toggle="collapse" data-target="#btn-nav">
+          <a href="#">Acesso Rápido <i class="fa-solid fa-angle-down"></i></a></button>              
+          <div id="btn-nav" class="collapse">
+             <a href="#">Localizar Agência</a>
+             <a href="#">Fale Conosco</a>
+             <a href="#">Política de Privacidade</a>
+             <a href="#">2ª via de Boleto</a>
+             <a href="#">Atendimento</a>
+             <a href="#">Trabalhe Conosco</a>
+          </div>
+          <div class="nav-divider"></div>
+          <a href="#" class="btn" data-toggle="collapse">Para Você</a>
+          <div class="nav-divider"></div>
+          <a href="#" class="btn" data-toggle="collapse">Para sua Empresa</a>
+           
+        </div>
+      </nav>
+
+      <form action="" class="login-form">
+        <div class="inputBox">
+          <span>CPF</span>
+          <input type="text" placeholder="Digite seu CPF" />
+        </div>
+
+        <div class="inputBox">
+          <span>Senha</span>
+          <input type="password" placeholder="Digite sua senha" />
+        </div>
+
+        <button type="submit" class="login-btn" value="submit">Entrar</button>
+      </form>
+    </header>
+
+    <!--search-->
+    <div class="search-form">
+      <div id="close-search" class="fas fa-times"></div>
+
+      <form action="">
+        <input
+          type="search"
+          name=""
+          placeholder="O que você está procurando?"
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </div>
+
+    <!--home-->
+
+    <section class="home" id="home">
+      <div class="content-1">
+        <h1>Nós temos as melhores oportunidades<span> para você</span></h1>
+        <p>
+          Somos o parceiro ideal para te acompanhar e ajudar em todas as suas
+          conquistas. De forma responsável e transparente, nós vamos, juntos,
+          organizar a sua vida financeira.
+        </p>
+      </div>
+
+      <div class="image">
+        <img src="images/happy-group.jpg" alt="home-image" />
+      </div>
+
+      <div class="content-2">
+        <h3>Para você</h3>
+        <ul>
+          <li><a href="#">Cartões</a></li>
+          <li><a href="#">Pix</a></li>
+          <li><a href="#">Consórcios</a></li>
+          <li><a href="#">Crédito</a></li>
+          <li><a href="#">Investimentos</a></li>
+          <li><a href="#">Pagamentos</a></li>
+          <li><a href="#">Previdência</a></li> 
+          <li><a href="#">Seguros</a></li>
+          <li><a href="#">Câmbio</a></li>
+          <li><a href="#">Momentos</a></li>         
+        </ul>
+      </div>
+    </section>
+
+
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
